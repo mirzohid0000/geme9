@@ -1,0 +1,725 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(227, 227, 227);
+}
+.content {
+    background-color: white;
+    border: 1px solid silver;
+    width: 2500px;
+    position: relative;
+    left: 1600px;
+}
+.sayt {
+    position: relative;
+    right: 1400px;
+    height: 5000px;
+}
+.container {    
+    position: relative;
+}
+.head {
+    width: 1800px;
+    height: 100px;
+    display: flex;
+    padding: 32px 350px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    left: 1700px;
+}
+header {
+    display: flex;
+    align-items: flex-start;
+    gap: 200px;
+    font-family: sans-serif;
+}
+.yo {
+    background-color: silver;
+    border: 1px solid silver;
+    border-radius: 25px;
+    width: 70px;
+    height: 40px;
+    position: relative;
+    right: 220px;
+    top: 65px;
+}
+.f {
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 27px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 1830px;
+    top: 100px;
+    transition: .5s;
+}
+.f img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 3px;
+    top: 3px;
+}
+input[type="checkbox"]:checked + .f{
+    left: 1860px;
+}
+ul {
+    display: flex;
+    width: 667px;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    position: relative;
+    left: 550px;
+    top: 35px;
+    font-size: 32px;
+}
+li {
+    list-style-type: none;
+    position: relative;
+    right: 700px;
+    top: 20px;
+}
+.s {
+    width: 230px;
+    height: 55px;
+    position: relative;
+    right: 120px;
+    top: 50px;
+    border-radius: 5px;
+    background: var(--secondary-100, #F4F4F5);
+}
+.w {
+    color: silver;
+    font-size: 25px;
+    position: absolute;
+    left: 25px;
+    top: 13px;
+}
+.search {
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    left: 180px;
+    top: 13px;
+}
+header img {
+    width: 200px;
+    position: relative;
+    right: 350px;
+    top: 45px;
+}
+h1 {
+    position: relative;
+    left: 10px;
+    top: 85px;
+    font-size: 50px;
+    text-align: start;
+}
+a {
+    color: silver;
+    text-decoration: none;
+}
+.r {
+    display: flex;
+    width: 920px;
+    height: 420px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 20px;
+    border: 1px solid var(--secondary-100, #E8E8EA);
+    background: var(--white, #FFF);
+    box-shadow: 0px 12px 24px -6px rgba(24, 26, 42, 0.12);
+    position: relative;
+    left: 1800px;
+    bottom: 250px;
+}
+.cal {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: 320px;
+    left: 55px;
+    position: absolute;
+    background-image: url("Imageimg2.png");
+    background-size: cover;
+}
+button:nth-child(1) {
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    font-size: 30px;
+}
+h3 {
+    color: gray;
+}
+.kol {
+    display: flex;
+    color: gray;
+    font-size: 25px;
+    gap: 35px;
+    position: relative;
+    left: 110px;
+    top: 95px;
+}
+.q {
+    border: 3px solid rgb(135, 135, 135);
+    border-radius: 20px;
+    width: 1200px;
+    height: 170px;
+    box-shadow: 2px 3px 1px silver;
+    position: relative;
+    bottom: 150px;
+    left: 2050px;
+}
+.p1 {
+    font-size: 27px;
+    color: #555;
+}
+.p2 {
+    font-size: 33px;
+    color: #444;
+}
+.p3 {
+    font-size: 33px;
+    color: #666;
+}
+.hu {
+    position: relative;
+    left: 1705px;
+    top: -50px;
+}
+.container2 {
+    position: relative;
+    left: 1745px;
+}
+.container3 {
+    position: relative;
+    left: 1745px;
+}
+.container4 {
+    position: relative;
+    left: 1745px;
+}
+.container2 img {
+    position: relative;
+    left: 23px;
+    top: 23px;
+    width: 570px;
+}
+.container3 img {
+    position: relative;
+    left: 23px;
+    top: 23px;
+    width: 570px;
+}
+.container4 img {
+    position: relative;
+    left: 23px;
+    top: 23px;
+    width: 570px;
+}
+.container2 button {
+    position: relative;
+    right: -30px;
+    top: 50px;
+    border: 1px solid rgb(251, 243, 243);
+    background-color: rgb(251, 243, 243);
+    color: blue;
+}
+.container3 button {
+    position: relative;
+    right: -30px;
+    top: 50px;
+    border: 1px solid rgb(251, 243, 243);
+    background-color: rgb(251, 243, 243);
+    color: blue;
+}
+.container4 button {
+    position: relative;
+    right: -30px;
+    top: 50px;
+    border: 1px solid rgb(251, 243, 243);
+    background-color: rgb(251, 243, 243);
+    color: blue;
+}
+.rasm1 {
+    position: relative;
+    left: -40px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm2 {
+    position: relative;
+    left: -23px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm3 {
+    position: relative;
+    left: -5px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm4 {
+    position: relative;
+    left: -40px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm5 {
+    position: relative;
+    left: -23px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm6 {
+    position: relative;
+    left: -5px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm7 {
+    position: relative;
+    left: -40px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm8 {
+    position: relative;
+    left: -23px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.rasm9 {
+    position: relative;
+    left: -5px;
+    border: 2px solid silver;
+    border-radius: 15px;
+    width: 620px;
+    height: 700px;
+}
+.container2 h1 {
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 70px;
+}
+.container3 h1 {
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 70px;
+}
+.container4 h1 {
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    top: 70px;
+}
+.container2 {
+    display: flex;
+}
+.container3 {
+    display: flex;
+}
+.container4 {
+    display: flex;
+}
+.container2 .cal {
+    position: relative;
+    top: 90px;
+    left: 25px;
+}
+.container3 .cal {
+    position: relative;
+    top: 90px;
+    left: 25px;
+}
+.container4 .cal {
+    position: relative;
+    top: 90px;
+    left: 25px;
+}
+.container2 h4 {
+    position: relative;
+    left: -60px;
+}
+.container3 h4 {
+    position: relative;
+    left: -60px;
+}
+.container4 h4 {
+    position: relative;
+    left: -60px;
+}
+.container2 .hal {
+    position: relative;
+    top: -45px;
+    left: 85px;
+}
+.container3 .hal {
+    position: relative;
+    top: -45px;
+    left: 85px;
+}
+.container4 .hal {
+    position: relative;
+    top: -45px;
+    left: 85px;
+}
+.kol1 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal1 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imagecal1.png");
+    background-size: cover;
+}
+.kol2 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal2 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imageimg2.png");
+    background-size: cover;
+}
+.kol3 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal3 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imagecal2.png");
+    background-size: cover;
+}
+.kol4 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal4 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imagecal3.png");
+    background-size: cover;
+}
+.kol5 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal5 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imagecal4.png");
+    background-size: cover;
+}
+.kol6 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal6 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imagecal1.png");
+    background-size: cover;
+}
+.kol7 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal7 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imageimg2.png");
+    background-size: cover;
+}
+.kol8 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal8 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imagecal2.png");
+    background-size: cover;
+}
+.kol9 {
+    color: gray;
+    gap: 35px;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    top: 110px;
+    left: 180px;
+}
+.cal9 {
+    border: 1px solid white;
+    border-radius: 35px;
+    width: 55px;
+    height: 55px;
+    top: -18px;
+    left: -150px;
+    position: absolute;
+    background-image: url("Imagecal3.png");
+    background-size: cover;
+}
+.tugma {
+    color: #444;
+    font-size: 30px;
+    width: 282px;
+    height: 100px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+    border: 1px;
+    gap: 12px;
+    position: relative;
+    left: 2530px;
+    top: 100px;
+}
+.q2 {
+    border: 3px solid silver;
+    border-radius: 20px;
+    width: 1200px;
+    height: 170px;
+    box-shadow: 2px 3px 1px silver;
+    position: relative;
+    bottom: -350px;
+    left: 1800px;
+}
+footer {
+    background-color: rgb(240, 240, 240);
+    width: 2495px;
+    height: 650px;
+    padding: 64px 352px 0px 352px;
+    border: 1px solid rgb(225, 225, 225);
+    gap: 64px;
+    position: relative;
+    left: 1400px;
+    top: 500px;
+}
+.ab {
+    position: absolute;
+    left: 400px;
+    top: 70px;
+    font-size: 35px;
+}
+.prg {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    color: #333;
+    font-size: 30px;
+}
+.mal {
+    position: relative;
+    top: 300px;
+    left: 50px;
+}
+.prg2 {
+    display: flex;
+    font-size: 30px;
+}
+.prg3 {
+    display: flex;
+    font-size: 30px;
+}
+h2 {
+    color: black;
+}
+.so {
+    font-size: 35px;
+    position: relative;
+    left: 630px;
+    bottom: 60px;
+}
+.so2 {
+    font-size: 35px;
+    position: relative;
+    left: 900px;
+    bottom: 295px;
+}
+
+.li {
+    font-size: 25px;
+    position: relative;
+    left: 1335px;
+    bottom: 27px;
+}
+.li2 {
+    font-size: 25px;
+    position: relative;
+    left: 1605px;
+    bottom: 260px;
+}
+.a1 {
+    font-size: 30px;
+    color: #333;
+}
+.b1 {
+    font-size: 30px;
+    color: #333;
+    position: relative;
+    top: 35px;
+}
+.c1 {
+    font-size: 30px;
+    color: #333;
+    position: relative;
+    top: 45px;
+}
+.d1 {
+    font-size: 27px;
+    color: #333;
+    position: relative;
+    top: 55px;
+}
+.e1 {
+    font-size: 27px;
+    color: #333;
+    position: relative;
+    top: 65px;
+}
+.f1 {
+    font-size: 27px;
+    color: #333;  
+    position: relative;
+    top: 75px;
+}
+.email {
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    position: relative;
+    left: 1220px;
+    bottom: 520px;
+}
+.eh {
+    font-size: 35px;
+    position: relative;
+    left: 115px;
+    top: 50px;
+}
+.ep {
+    font-size: 28px;
+    color: #333;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
